@@ -1,13 +1,17 @@
 import React from "react";
 import "./App.css";
 import "./loaders.css";
+import { NoBorderSpinner } from "./Components/Loaders";
 
 function App() {
   return (
     <div>
+      <h1 className="library-title">
+        React <span className="fancy">Fancy</span> Loader
+      </h1>
       <div className="flexbox">
         <div>
-          <div className="nb-spinner"></div>
+          <NoBorderSpinner size={60} color="red" stroke={3} />
         </div>
 
         <div>

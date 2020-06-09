@@ -38,3 +38,12 @@ body {
   align-items: center;
   overflow: hidden;
 }
+
+.library-title {
+  text-align: center;
+  color: #bad375;
+}
+
+.fancy {
+  color: #FF9800;
+}
