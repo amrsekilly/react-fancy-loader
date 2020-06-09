@@ -20,6 +20,10 @@ or
 
 ### NO BORDER SPINNER
 
+```jsx
+<NoBorderSpinner size={60} color="red" stroke={3} duration={1000} />
+```
+
 ### BORDER TOP SPINNER
 
 ### DOUBLE BORDER SPINNER
