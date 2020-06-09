@@ -40,6 +40,10 @@ or
 
 ### 3 DOT LOADER
 
+```jsx
+<DotLoader size={10} color="red" duration={1000} />
+```
+
 ### FULL CIRCLE LOADER
 
 ### SPINNER 13
