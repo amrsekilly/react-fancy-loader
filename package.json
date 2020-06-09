@@ -1,6 +1,6 @@
 {
   "name": "react-fancy-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of fancy loaders for your React applications. The package uses ESM, which enables tree shaking.",
   "private": false,
   "main": "build/index.esm.js",
