@@ -11,7 +11,7 @@ function App() {
       </h1>
       <div className="flexbox">
         <div>
-          <NoBorderSpinner size={60} color="red" stroke={3} />
+          <NoBorderSpinner size={60} color="red" stroke={3} duration={700} />
         </div>
 
         <div>
