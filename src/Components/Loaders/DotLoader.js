@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import React from "react";
 import { Grow } from "../Styles/Grow";
+import { FlexDiv } from "../Styles/FlexDiv";
 
 const FirstDot = styled(Grow)`
   border-radius: 50%;
@@ -34,9 +35,9 @@ const ThirdDot = styled(FirstDot)`
 `;
 
 export const DotLoader = (props) => (
-  <React.Fragment>
+  <FlexDiv>
     <FirstDot {...props} />
     <SecondDot {...props} />
     <ThirdDot {...props} />
-  </React.Fragment>
+  </FlexDiv>
 );
