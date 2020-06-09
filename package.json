@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A set of fancy loaders for your React applications. The package uses ESM, which enables tree shaking.",
   "private": false,
+  "module": "build/index.esm.js",
   "dependencies": {
     "styled-components": "^5.1.1"
   },
@@ -10,7 +11,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generateFiles": "rollup -c",
+    "deploy": "NODE_ENV=production yarn generateFiles && yarn publish"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,11 +31,17 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^11.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "rollup": "^2.15.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-delete": "^1.2.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^6.1.0"
   }
 }
