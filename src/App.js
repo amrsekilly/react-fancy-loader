@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./loaders.css";
-import { NoBorderSpinner } from "./Components/Loaders";
+import { NoBorderSpinner, DotLoader } from "./Components/Loaders";
 
 function App() {
   return (
@@ -70,9 +70,7 @@ function App() {
 
         <div>
           <h2 className="item-title">DotLoader</h2>
-          <div className="dot-loader"></div>
-          <div className="dot-loader dot-loader--2"></div>
-          <div className="dot-loader dot-loader--3"></div>
+          <DotLoader size={10} color="red" duration={1000} />
         </div>
 
         <div>
