@@ -13,6 +13,19 @@
     "type": "git",
     "url": "https://github.com/amrsekilly/react-fancy-loader.git"
   },
+  "keywords": [
+    "react",
+    "styled-components",
+    "load-lab",
+    "loadlab",
+    "react-loader",
+    "spinners",
+    "loaders",
+    "react-spinner",
+    "react-spinners",
+    "react-loaders",
+    "react-fancy-loader"
+  ],
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
