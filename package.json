@@ -1,6 +1,6 @@
 {
   "name": "react-fancy-loader",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A lightweight set of fancy loaders for your React applications. The package uses ESM, which enables tree shaking.",
   "private": false,
   "sideEffects": false,
@@ -12,6 +12,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/amrsekilly/react-fancy-loader.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
     "react": "^16.13.1",
