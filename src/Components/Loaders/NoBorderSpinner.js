@@ -1,8 +1,9 @@
 import styled, { css } from "styled-components";
+import React from "react";
 import { Spinner } from "../Styles/Spinner";
 
-export const NoBorderSpinner = styled(Spinner)`
-  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& {
+const StyledNoBorderSpinner = styled(Spinner)`
+  &&& {
     margin: 0 !important;
     background: transparent !important;
     border-right: 4px solid transparent !important;
@@ -18,3 +19,13 @@ export const NoBorderSpinner = styled(Spinner)`
       `};
   }
 `;
+
+export const NoBorderSpinner = (props) => (
+  <div className="no-border-spinner">
+    <div className="no-border-spinner-2">
+      <div className="no-border-spinner-3">
+        <StyledNoBorderSpinner {...props} />
+      </div>
+    </div>
+  </div>
+);
