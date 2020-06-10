@@ -4,7 +4,7 @@ This package is implemented based on the styles provided by [LoadLab](https://gi
 
 ## Purpose
 
-The main purpose of this package is to provide a lightweight, and fancy looking loaders for your react applications. That's why it relied on ESM to allow you to use tree-shaking to reduce the bundle size, by only including the loaders that you'll use.
+The main purpose of this package is to provide a lightweight, and fancy looking loaders for your react applications. That's why it relies on ESM to allow you to use tree-shaking to reduce the bundle size, by only including the loaders/components that you'll use.
 
 ## Getting Started
 
