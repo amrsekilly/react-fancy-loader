@@ -3,6 +3,7 @@
   "version": "0.1.8",
   "description": "A lightweight set of fancy loaders for your React applications. The package uses ESM, which enables tree shaking.",
   "private": false,
+  "sideEffects": false,
   "main": "build/index.esm.js",
   "files": [
     "build/"
