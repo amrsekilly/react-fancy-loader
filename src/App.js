@@ -5,6 +5,7 @@ import {
   NoBorderSpinner,
   DotLoader,
   BorderTopSpinner,
+  DoubleBorderSpinner,
 } from "./Components/Loaders";
 
 function App() {
@@ -32,7 +33,13 @@ function App() {
 
         <div>
           <h2 className="item-title">DoubleBorderSpinner</h2>
-          <div className="db-spinner"></div>
+          <DoubleBorderSpinner
+            size={70}
+            color="red"
+            outlineColor="#222"
+            stroke={4}
+            duration={700}
+          />
         </div>
 
         <div>

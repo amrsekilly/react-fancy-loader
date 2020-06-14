@@ -27,10 +27,26 @@ or
 ### BORDER TOP SPINNER
 
 ```jsx
-<BorderTopSpinner size={70} color="red" outlineColor="#222" stroke={4} duration={700} />
+<BorderTopSpinner
+    size={70}
+    color="red"
+    outlineColor="#222"
+    stroke={4}
+    duration={700}
+/>
 ```
 
 ### DOUBLE BORDER SPINNER
+
+```jsx
+<DoubleBorderSpinner
+    size={70}
+    color="red"
+    outlineColor="#222"
+    stroke={4}
+    duration={700}
+/>
+```
 
 ### DOUBLE SPINNERS
 
