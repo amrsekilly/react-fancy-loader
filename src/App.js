@@ -1,7 +1,11 @@
 import React from "react";
 import "./App.css";
 import "./loaders.css";
-import { NoBorderSpinner, DotLoader } from "./Components/Loaders";
+import {
+  NoBorderSpinner,
+  DotLoader,
+  BorderTopSpinner,
+} from "./Components/Loaders";
 
 function App() {
   return (
@@ -17,7 +21,13 @@ function App() {
 
         <div>
           <h2 className="item-title">BorderSpinner</h2>
-          <div className="bt-spinner"></div>
+          <BorderTopSpinner
+            size={70}
+            color="red"
+            outlineColor="#222"
+            stroke={4}
+            duration={700}
+          />
         </div>
 
         <div>

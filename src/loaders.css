@@ -1,15 +1,3 @@
-/* BORDER TOP SPINNER */
-.bt-spinner {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: 4px solid #222;
-    border-top-color: #009688;
-    -webkit-animation: 1s spin linear infinite;
-    animation: 1s spin linear infinite;
-}
-
 /* DOUBLE BORDER SPINNER */
 .db-spinner {
     width: 75px;
